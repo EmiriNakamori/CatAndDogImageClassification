@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCB97FF2796949700FB372A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB97FE2796949700FB372A /* AppDelegate.swift */; };
+		FDCB98012796949700FB372A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98002796949700FB372A /* SceneDelegate.swift */; };
+		FDCB98032796949700FB372A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98022796949700FB372A /* ViewController.swift */; };
+		FDCB98062796949700FB372A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCB98042796949700FB372A /* Main.storyboard */; };
+		FDCB98082796949800FB372A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCB98072796949800FB372A /* Assets.xcassets */; };
+		FDCB980B2796949800FB372A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCB98092796949800FB372A /* LaunchScreen.storyboard */; };
+		FDCB98162796949800FB372A /* DogCatImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98152796949800FB372A /* DogCatImageTests.swift */; };
+		FDCB98202796949800FB372A /* DogCatImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB981F2796949800FB372A /* DogCatImageUITests.swift */; };
+		FDCB98222796949800FB372A /* DogCatImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98212796949800FB372A /* DogCatImageUITestsLaunchTests.swift */; };
+		FDCB983127969FE900FB372A /* AnimalClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FDCB983027969FE900FB372A /* AnimalClassifier 1.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDCB98122796949800FB372A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCB97F32796949700FB372A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCB97FA2796949700FB372A;
+			remoteInfo = DogCatImage;
+		};
+		FDCB981C2796949800FB372A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCB97F32796949700FB372A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCB97FA2796949700FB372A;
+			remoteInfo = DogCatImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDCB97FB2796949700FB372A /* DogCatImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogCatImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB97FE2796949700FB372A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDCB98002796949700FB372A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDCB98022796949700FB372A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDCB98052796949700FB372A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDCB98072796949800FB372A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDCB980A2796949800FB372A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDCB980C2796949800FB372A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCB98112796949800FB372A /* DogCatImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogCatImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB98152796949800FB372A /* DogCatImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCatImageTests.swift; sourceTree = "<group>"; };
+		FDCB981B2796949800FB372A /* DogCatImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogCatImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB981F2796949800FB372A /* DogCatImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCatImageUITests.swift; sourceTree = "<group>"; };
+		FDCB98212796949800FB372A /* DogCatImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCatImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDCB983027969FE900FB372A /* AnimalClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "AnimalClassifier 1.mlmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCB97F82796949700FB372A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB980E2796949800FB372A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB98182796949800FB372A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCB97F22796949700FB372A = {
+			isa = PBXGroup;
+			children = (
+				FDCB97FD2796949700FB372A /* DogCatImage */,
+				FDCB98142796949800FB372A /* DogCatImageTests */,
+				FDCB981E2796949800FB372A /* DogCatImageUITests */,
+				FDCB97FC2796949700FB372A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCB97FC2796949700FB372A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB97FB2796949700FB372A /* DogCatImage.app */,
+				FDCB98112796949800FB372A /* DogCatImageTests.xctest */,
+				FDCB981B2796949800FB372A /* DogCatImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCB97FD2796949700FB372A /* DogCatImage */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB97FE2796949700FB372A /* AppDelegate.swift */,
+				FDCB98002796949700FB372A /* SceneDelegate.swift */,
+				FDCB98022796949700FB372A /* ViewController.swift */,
+				FDCB98042796949700FB372A /* Main.storyboard */,
+				FDCB983027969FE900FB372A /* AnimalClassifier 1.mlmodel */,
+				FDCB98072796949800FB372A /* Assets.xcassets */,
+				FDCB98092796949800FB372A /* LaunchScreen.storyboard */,
+				FDCB980C2796949800FB372A /* Info.plist */,
+			);
+			path = DogCatImage;
+			sourceTree = "<group>";
+		};
+		FDCB98142796949800FB372A /* DogCatImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB98152796949800FB372A /* DogCatImageTests.swift */,
+			);
+			path = DogCatImageTests;
+			sourceTree = "<group>";
+		};
+		FDCB981E2796949800FB372A /* DogCatImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB981F2796949800FB372A /* DogCatImageUITests.swift */,
+				FDCB98212796949800FB372A /* DogCatImageUITestsLaunchTests.swift */,
+			);
+			path = DogCatImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCB97FA2796949700FB372A /* DogCatImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCB98252796949800FB372A /* Build configuration list for PBXNativeTarget "DogCatImage" */;
+			buildPhases = (
+				FDCB97F72796949700FB372A /* Sources */,
+				FDCB97F82796949700FB372A /* Frameworks */,
+				FDCB97F92796949700FB372A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogCatImage;
+			productName = DogCatImage;
+			productReference = FDCB97FB2796949700FB372A /* DogCatImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDCB98102796949800FB372A /* DogCatImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCB98282796949800FB372A /* Build configuration list for PBXNativeTarget "DogCatImageTests" */;
+			buildPhases = (
+				FDCB980D2796949800FB372A /* Sources */,
+				FDCB980E2796949800FB372A /* Frameworks */,
+				FDCB980F2796949800FB372A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCB98132796949800FB372A /* PBXTargetDependency */,
+			);
+			name = DogCatImageTests;
+			productName = DogCatImageTests;
+			productReference = FDCB98112796949800FB372A /* DogCatImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDCB981A2796949800FB372A /* DogCatImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCB982B2796949800FB372A /* Build configuration list for PBXNativeTarget "DogCatImageUITests" */;
+			buildPhases = (
+				FDCB98172796949800FB372A /* Sources */,
+				FDCB98182796949800FB372A /* Frameworks */,
+				FDCB98192796949800FB372A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCB981D2796949800FB372A /* PBXTargetDependency */,
+			);
+			name = DogCatImageUITests;
+			productName = DogCatImageUITests;
+			productReference = FDCB981B2796949800FB372A /* DogCatImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCB97F32796949700FB372A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FDCB97FA2796949700FB372A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FDCB98102796949800FB372A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FDCB97FA2796949700FB372A;
+					};
+					FDCB981A2796949800FB372A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FDCB97FA2796949700FB372A;
+					};
+				};
+			};
+			buildConfigurationList = FDCB97F62796949700FB372A /* Build configuration list for PBXProject "DogCatImage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCB97F22796949700FB372A;
+			productRefGroup = FDCB97FC2796949700FB372A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCB97FA2796949700FB372A /* DogCatImage */,
+				FDCB98102796949800FB372A /* DogCatImageTests */,
+				FDCB981A2796949800FB372A /* DogCatImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCB97F92796949700FB372A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB980B2796949800FB372A /* LaunchScreen.storyboard in Resources */,
+				FDCB98082796949800FB372A /* Assets.xcassets in Resources */,
+				FDCB98062796949700FB372A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB980F2796949800FB372A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB98192796949800FB372A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCB97F72796949700FB372A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB98032796949700FB372A /* ViewController.swift in Sources */,
+				FDCB97FF2796949700FB372A /* AppDelegate.swift in Sources */,
+				FDCB983127969FE900FB372A /* AnimalClassifier 1.mlmodel in Sources */,
+				FDCB98012796949700FB372A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB980D2796949800FB372A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB98162796949800FB372A /* DogCatImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB98172796949800FB372A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB98222796949800FB372A /* DogCatImageUITestsLaunchTests.swift in Sources */,
+				FDCB98202796949800FB372A /* DogCatImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCB98132796949800FB372A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCB97FA2796949700FB372A /* DogCatImage */;
+			targetProxy = FDCB98122796949800FB372A /* PBXContainerItemProxy */;
+		};
+		FDCB981D2796949800FB372A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCB97FA2796949700FB372A /* DogCatImage */;
+			targetProxy = FDCB981C2796949800FB372A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDCB98042796949700FB372A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCB98052796949700FB372A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDCB98092796949800FB372A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCB980A2796949800FB372A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCB98232796949800FB372A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDCB98242796949800FB372A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCB98262796949800FB372A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogCatImage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.DogCatImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDCB98272796949800FB372A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogCatImage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.DogCatImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDCB98292796949800FB372A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.DogCatImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogCatImage.app/DogCatImage";
+			};
+			name = Debug;
+		};
+		FDCB982A2796949800FB372A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.DogCatImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogCatImage.app/DogCatImage";
+			};
+			name = Release;
+		};
+		FDCB982C2796949800FB372A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.DogCatImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogCatImage;
+			};
+			name = Debug;
+		};
+		FDCB982D2796949800FB372A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.DogCatImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogCatImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCB97F62796949700FB372A /* Build configuration list for PBXProject "DogCatImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB98232796949800FB372A /* Debug */,
+				FDCB98242796949800FB372A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCB98252796949800FB372A /* Build configuration list for PBXNativeTarget "DogCatImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB98262796949800FB372A /* Debug */,
+				FDCB98272796949800FB372A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCB98282796949800FB372A /* Build configuration list for PBXNativeTarget "DogCatImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB98292796949800FB372A /* Debug */,
+				FDCB982A2796949800FB372A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCB982B2796949800FB372A /* Build configuration list for PBXNativeTarget "DogCatImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB982C2796949800FB372A /* Debug */,
+				FDCB982D2796949800FB372A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCB97F32796949700FB372A /* Project object */;
+}
