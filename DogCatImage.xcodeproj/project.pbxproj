@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD356C78279BAE06006F8AF0 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD356C77279BAE06006F8AF0 /* MobileNetV2.mlmodel */; };
 		FDCB97FF2796949700FB372A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB97FE2796949700FB372A /* AppDelegate.swift */; };
 		FDCB98012796949700FB372A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98002796949700FB372A /* SceneDelegate.swift */; };
 		FDCB98032796949700FB372A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98022796949700FB372A /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		FDCB98162796949800FB372A /* DogCatImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98152796949800FB372A /* DogCatImageTests.swift */; };
 		FDCB98202796949800FB372A /* DogCatImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB981F2796949800FB372A /* DogCatImageUITests.swift */; };
 		FDCB98222796949800FB372A /* DogCatImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB98212796949800FB372A /* DogCatImageUITestsLaunchTests.swift */; };
-		FDCB983127969FE900FB372A /* AnimalClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FDCB983027969FE900FB372A /* AnimalClassifier 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD356C77279BAE06006F8AF0 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		FDCB97FB2796949700FB372A /* DogCatImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogCatImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCB97FE2796949700FB372A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDCB98002796949700FB372A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		FDCB981B2796949800FB372A /* DogCatImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogCatImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCB981F2796949800FB372A /* DogCatImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCatImageUITests.swift; sourceTree = "<group>"; };
 		FDCB98212796949800FB372A /* DogCatImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCatImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FDCB983027969FE900FB372A /* AnimalClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "AnimalClassifier 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 				FDCB98002796949700FB372A /* SceneDelegate.swift */,
 				FDCB98022796949700FB372A /* ViewController.swift */,
 				FDCB98042796949700FB372A /* Main.storyboard */,
-				FDCB983027969FE900FB372A /* AnimalClassifier 1.mlmodel */,
 				FDCB98072796949800FB372A /* Assets.xcassets */,
+				FD356C77279BAE06006F8AF0 /* MobileNetV2.mlmodel */,
 				FDCB98092796949800FB372A /* LaunchScreen.storyboard */,
 				FDCB980C2796949800FB372A /* Info.plist */,
 			);
@@ -263,7 +263,7 @@
 			files = (
 				FDCB98032796949700FB372A /* ViewController.swift in Sources */,
 				FDCB97FF2796949700FB372A /* AppDelegate.swift in Sources */,
-				FDCB983127969FE900FB372A /* AnimalClassifier 1.mlmodel in Sources */,
+				FD356C78279BAE06006F8AF0 /* MobileNetV2.mlmodel in Sources */,
 				FDCB98012796949700FB372A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

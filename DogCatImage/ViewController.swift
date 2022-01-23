@@ -15,7 +15,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var label: UILabel!
     
-    var model = try! VNCoreMLModel(for: AnimalClassifier_1().model)
+    var model = try! VNCoreMLModel(for: MobileNetV2().model)
     
     //ビュー表示時に呼ばれる
     override func viewDidAppear(_ animated: Bool) {
@@ -102,8 +102,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 //UIの更新
                 DispatchQueue.main.async {
                     self.label.text = text
-                    print("テキストの中身")
-                    print(self.label.text)
                 }
             }
             
